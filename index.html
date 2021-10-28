@@ -1,28 +1,199 @@
 <!DOCTYPE html> 
 <html>
     <head id="header">
-      <link rel="stylesheet" href="Styles.css" type="text/css">
+      <link rel="stylesheet" href="css/Styles.css" type="text/css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?subset=vietnamese">
+      <script src="https://kit.fontawesome.com/0e7e5288fb.js" crossorigin="anonymous"></script>
       <title>Chia sẻ kiến thức dinh dưỡng</title>
       <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
 
     </head>
     <body>
-      <header id="header">
-        <div class="container">
+      <header class="header">
+        <div class="logo">
           <img src="Logo/logo.png" alt="logo" class="logo">
-          <nav>
-            <ul>
-              <li><a href="Index.html">TRANG CHỦ</a></li>
-              <li><a href="#">THỰC ĐƠN DINH DƯỠNG</a></li>
-              <li><a href="#">KIẾN THỨC DINH DƯỠNG</a></li>
-              <li><a href="#">GÓC CHIA SẺ</a></li>
-              <input type="text" name="search" id="search">
+        </div>  
+        <ul class="menu">
+          <li><a href="Index.html" class="is-active">TRANG CHỦ</a></li>
+          <li>
+            <a>THỰC ĐƠN DINH DƯỠNG</a>
+            <ul class="sub-menu">
+              <li><a href="#">Dinh dưỡng cơ bản</a></li>
+              <li><a href="#">Dinh dưỡng cho bé</a></li>
+              <li><a href="#">Dinh dưỡng cho mẹ bầu</a></li>
+              <li><a href="#">Dinh dưỡng cho người bệnh</a></li>
+              <li><a href="#">Dinh dưỡng giảm cân</a></li>
             </ul>
-          </nav>
+          </li>
+          <li><a href="#">KIẾN THỨC DINH DƯỠNG</a></li>
+          <li><a href="#">GÓC CHIA SẺ</a></li>
+          <li>
+            <div class="search">
+              <input type="text" />
+              <button><img src="image/search.svg" alt=""></button>
+            </div>
+          </li>
+        </ul>
+        <div class="notify">
+          <i class="fas fa-bell"></i>
+          <i class="fas fa-user-circle"></i>
         </div>
       </header>
+
+      <section class="section">
+        <div class="section__image">
+          <img src="image/Thiết kế không tên (1).png" alt="ảnh bìa">
+        </div>
+        <h1 class="section__title">TIN TỨC</h1>
+        <div class="section__wrap">
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/bg.jpg" alt="">
+            </div>
+            <h3>10 loại thực phẩm tốt cho người cao huyết áp </h3>
+            <p>
+              Tăng huyết áp hoặc huyết áp cao là một trong những nguyên 
+              nhân chính gây ra các bệnh về tim mạch.  Hơn 1 tỷ người trên thế giới....
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/vitaminD.jpg" alt="">
+            </div>
+            <h3>Vitamin D có tác dụng gì? </h3>
+            <p>
+              Vitamin D là thành phần thiết yếu cho việc điều chỉnh các khoáng chất canxi và 
+              phốt pho trong cơ thể nhằm duy trì cấu trúc xương thích hợp và khỏe mạnh. .
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/vitaminE.jpg" alt="">
+            </div>
+            <h3>8 tác dụng của vitamin E tốt cho sức khỏe </h3>
+            <p>
+              Tác dụng của vitamin E không chỉ dừng ở việc chăm sóc sắc đẹp, 
+              mà còn giúp bạn mang đến nhiều lợi ích quan trọng đối với sức khỏe tổng thể...
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/Nghệ.jpg" alt="">
+            </div>
+            <h3>Uống nước nghệ tươi có tốt không?  </h3>
+            <p>
+              Thành phần quan trọng nhất của nghệ tươi đó là 
+              Curcumin – một hoạt chất có khả năng kháng viêm, kháng khuẩn và chống oxy hóa hiệu quả....
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/bo_grande.jpg" alt="">
+            </div>
+            <h3>28 LOẠI THỰC PHẨM GIẢM CÂN NHANH </h3>
+            <p>
+              Một trong những cách giảm cân nhanh chóng là cắt giảm khẩu phần ăn của mình mỗi ngày sao cho hợp lý...
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/những-thức-ăn-tốt-cho-bà-bầu-2.jpg" alt="">
+            </div>
+            <h3>15 THỰC PHẨM CHO BÀ BẦU ĐỂ GIÚP CON THÔNG MINH HƠN </h3>
+            <p>
+              Một trong số những vấn đề mẹ bầu hiện nay quan tâm hơn cả là
+              làm thế nào giúp bé thông minh ngay từ khi trong bụng mẹ. Mẹ bầu cần lưu ý ăn uống ...
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/Thức ăn dặm.jpg" alt="">
+            </div>
+            <h3>10 loại thực phẩm tốt nhất cho trẻ bắt đầu ăn dặm</h3>
+            <p>
+              Chế độ ăn uống lành mạnh và có khoa học sẽ giúp cho trẻ phát 
+              triển tốt cả về thể chất lẫn tinh thần. Vì thế, trẻ cần được cha mẹ bổ sung những loại...
+            </p>
+          </div>
+          <div class="section__item">
+            <div class="section__img">
+              <img src="image/dinh-duong-tieu-duong-1146.jpg" alt="">
+            </div>
+            <h3>Người bị bệnh tiểu đường nên ăn gì và nên kiêng gì?</h3>
+            <p>
+              Chế độ ăn đóng vai trò quan trọng trong kiểm soát bệnh tiểu đường. 
+              Một chế độ ăn đảm bảo cung cấp dinh dưỡng, đủ về số lượng...
+            </p>
+          </div>
+          <div class="section__button">
+            <a href="">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__contact">
+          <h3>THÔNG TIN</h3>
+          <ul>
+            <li>Dự án “Dinh dưỡng đẩy lùi covid”</li>
+            <li>Dự án “Momcenter”</li>
+            <li>
+              <div>
+                <i></i>
+                <p>140/30/5, Phường Vĩnh Hưng, Quận Hoàng Mai, Thành phố Hà Nội</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>0922121296 - 0109374525</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <i></i>
+                <p>0922121296 - 0109374525</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__category">
+          <h3>DANH MỤC TIN TỨC</h3>
+          <ul>
+            <li>Sức khỏe</li>
+            <li>Gia đình</li>
+            <li>Lối sống</li>
+            <li>Làm đẹp </li>
+            <li>Kiến thức dinh dưỡng </li>
+            <li>Thực đơn dinh dưỡng </li>
+          </ul>
+        </div>
+        <div class="footer__com">
+          <h3>Cộng đồng</h3>
+          <div class="footer__icon">
+            <a href="">
+              <img src="image/facebook.png" alt="">
+            </a>
+            <a href="">
+              <img src="image/instagram.png" alt="">
+            </a>
+            <a href="">
+              <img src="image/youtube.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="footer__logo">
+          <img src="Logo/logo.png" alt="">
+        </div>
+      </footer>
+      
+
     </body>
 </html>
